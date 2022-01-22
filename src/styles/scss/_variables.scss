@@ -1,0 +1,18 @@
+$gray: #475658;
+$blue: #121761;
+$red: #D44B4B;
+$white: #fff;
+$darkBlue: #03073C;
+$temp: #864bd4;
+
+@mixin button ($fontWeight, $fontSize, $lineHeight, $width) {
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    padding: 15px 0 16px 0;
+    width: $width;
+    color: white;
+}

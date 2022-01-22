@@ -1,0 +1,53 @@
+@import 'variables';
+
+.hero {
+    background-color: $red;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        position: relative
+    }
+    &__content{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 79px 0 99px;
+    }
+    &__contentPreDescr{
+        color: $white;
+        font-family: Lato;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    &__contentDescr{
+        color: $white;
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 53px;
+        padding: 6px 0 38px;
+        span {
+            border: 1px solid $white;
+            border-radius: 20px;
+            padding: 0 15px 3px 15px;
+        }
+    }
+    &__contentBtn{
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 28px;
+        color: $gray;
+        background-color: $white;
+        border-radius: 10px;
+        padding: 24px 91px;
+        margin: 0 0 0 8px;
+    }
+    &__img{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+}

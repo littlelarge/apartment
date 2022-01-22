@@ -1,0 +1,13 @@
+@import 'variables';
+
+.instruction{
+    background-color: $white;
+    &__content{
+        display: flex;
+        justify-content: space-around;
+        padding: 120px 0;
+    }
+    &__contentImg--fill{
+        fill: $red;
+    }
+}

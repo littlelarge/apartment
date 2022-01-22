@@ -1,0 +1,107 @@
+.survey{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title{
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 60px;
+        color: $darkBlue;
+        width: 889px;
+        padding: 95px 0 69px;
+        span{
+            padding: 0 10px;
+            border: 1xp solid $red;
+            border-radius: 18px;
+        }
+    }
+    &__content{
+        width: 1040px;
+        height: 710px;
+        display: flex;
+        margin: 0 0 308px 0;
+    }
+    &__contentImg{
+        width: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    &__contentItem{
+        position: relative;
+        background-color: $white;
+        width: 100%;
+        &:first-child{
+            background-color: $red;
+            width: 290px;
+            border-top-left-radius: 18px;
+            border-bottom-left-radius: 18px;
+            height: 100%;
+        }
+        &:last-child{
+            padding: 67px 0 0 70px;
+        }
+    }
+    &__contentInfo{
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 74px;
+        span{
+            color: $red;
+        }
+    }
+    &__contentTitle{
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45px;
+        color: $darkBlue;
+        padding-bottom: 30px;
+    }
+    &__contentBtn{
+        font-family: Lato;
+        background-color: $red;
+        color: $white;
+        width: 460px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        padding: 23px 193px;
+        border-radius: 10px;
+    }
+    &__contentSubItem{
+        position: relative;
+        &:last-child{
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: $gray;
+            padding: 63px 0 0 0;
+        }
+    }
+    &__contentArrow{
+        position: absolute;
+        top: 0;
+        right: 30%;
+    }
+    &__contentList{
+        width: 354px;
+        p {
+            padding: 0 0 40px 0;
+        }
+    }
+    &__contentListItem{
+        padding: 0 0 0 18px;
+        span {
+            position: absolute;
+            left: 0;
+        }
+    }
+}
